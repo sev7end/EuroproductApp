@@ -31,7 +31,6 @@ namespace EuroproductApp
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.ProductsTab = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.ProductsCatPanel = new System.Windows.Forms.FlowLayoutPanel();
@@ -40,7 +39,6 @@ namespace EuroproductApp
             this.button1 = new System.Windows.Forms.Button();
             this.BrowsePanel = new System.Windows.Forms.Panel();
             this.SearchBox = new MetroSet_UI.Controls.MetroSetTextBox();
-            this.CategoriesImageList = new System.Windows.Forms.ImageList(this.components);
             this.ProductsTab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -147,12 +145,6 @@ namespace EuroproductApp
             this.SearchBox.WatermarkText = "Search";
             this.SearchBox.Click += new System.EventHandler(this.SearchBox_Click);
             // 
-            // CategoriesImageList
-            // 
-            this.CategoriesImageList.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.CategoriesImageList.ImageSize = new System.Drawing.Size(16, 16);
-            this.CategoriesImageList.TransparentColor = System.Drawing.Color.Transparent;
-            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -185,7 +177,6 @@ namespace EuroproductApp
         private MetroSetTextBox SearchBox;
         public FlowLayoutPanel ProductsCatPanel;
         private FlowLayoutPanel RecipesCatPanel;
-        private ImageList CategoriesImageList;
     }
 }
 

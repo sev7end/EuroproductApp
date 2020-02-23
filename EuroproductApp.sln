@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuroproductApp", "Europrodu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuroproductsPCL", "EuroproductsPCL\EuroproductsPCL.csproj", "{B712B0D1-D201-431E-A58F-E3628CE39FFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEuroproducts", "TestEuroproducts\TestEuroproducts.csproj", "{8FDF129C-71EF-4CB9-B434-1ADE1EBD5B62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B712B0D1-D201-431E-A58F-E3628CE39FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B712B0D1-D201-431E-A58F-E3628CE39FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B712B0D1-D201-431E-A58F-E3628CE39FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDF129C-71EF-4CB9-B434-1ADE1EBD5B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDF129C-71EF-4CB9-B434-1ADE1EBD5B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDF129C-71EF-4CB9-B434-1ADE1EBD5B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDF129C-71EF-4CB9-B434-1ADE1EBD5B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

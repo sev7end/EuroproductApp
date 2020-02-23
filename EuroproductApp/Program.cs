@@ -39,10 +39,11 @@ namespace EuroproductApp
             {
                 AppStart.Instance.productsCategories = await categoryServices.GetProductsCategoriesAsync();
                 AppStart.Instance.recipesCategories = await categoryServices.GetRecipesCategoriesAsync();
-                AppStart.Instance.products = await productsServices.GetProductsAsync(1, 100);
+                AppStart.Instance.products = await productsServices.GetProductsAsync(1, 612);
                 AppStart.Instance.recipes = await recipesServices.GetRecipesAsync();
 
                 mainPage.PerformTest(() => mainPage.CreateCategories());
+                mainPage.PerformTest(() => mainPage.CreateContainerForProducts(AppStart.Instance.products));
             });
          
             Application.Run(mainPage);
